@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Mirrored from kuro.lol/home by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Dec 2022 23:45:03 GMT -->
+  <!-- Added by HTTrack --><meta
+    http-equiv="content-type"
+    content="text/html;charset=utf-8"
+  /><!-- /Added by HTTrack -->
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>aqu's site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#992DFF" />
+    <meta property="og:description" content="Kuro is cool." />
+    <meta property="og:title" content="aqu's site" />
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab&amp;display=swap"
+    />
+    <link rel="stylesheet" href="static/fonts/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="static/css/styles.css" />
+    <link rel="stylesheet" href="static/css/Navigation-Clean.css" />
+  </head>
+  <body class="bmain">
+    <script>
+      var _app = function () {
+        this.id = 0;
+        this.videoElement = null;
+        this.musicVolume = 0.15;
+        this.musicFadeIn = 4000;
+        this.Texts = [
+          "hello world",
+          "bored",
+          "i7-11700F, 16GB 3000MHz DDR4 RAM, 500GB SSD, 1TB HDD, RTX 3060 TI, 240hz G-Sync Curved Monitor, 1 60hz HP 24w monitor",
+          "DM me some project ideas.",
+        ];
+      };
+
+      var app = new _app();
+    </script>
+    <div class="startthing">
+      <i><a class="next">> Enter World <</a></i>
+    </div>
+    <div class="background">
+      <div id="pattern"></div>
+      <video id="background" loop="">
+        <source src="static/drift-1.mp4" type="video/mp4" />
+        <script>
+          var video = document.getElementById("background");
+
+          app.videoElement = video;
+          app.videoElement.volume = 0;
+        </script>
+      </video>
+    </div>
+    <div>
+      <nav class="navbar navbar-light navbar-expand-lg navigation-clean">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://discord.com/users/1050490192269684826"
+                  >Contact Me</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="main">
+        <div class="text-start containers">
+          <div class="Brand">
+            <!--<h1 class="Paragraph Hello">Hello World!</h1>-->
+            <h1 class="Paragraph Hello" id="testamonguspoop"></h1>
+            <p class="a"><span id="Bruh" class="Paragraph"></span></p>
+          </div>
+          <iframe
+            height="250px"
+            width="410px"
+            scrolling="no"
+            src="https://lanyard.cnrad.dev/api/1050490192269684826?borderRadius=5px&amp;idleMessage=coding%20probs&amp;bg=a&amp;animated=true"
+            frameborder="0"
+          >
+          </iframe>
+        </div>
+      </section>
+    </div>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/jquery.js"></script>
+    <script src="static/js/jquery_cookie.js"></script>
+    <script src="static/js/typed.js"></script>
+    <script src="static/js/ok.js"></script>
+    <script>
+      var xmlHttp = new XMLHttpRequest();
+      xmlHttp.open("GET.html", "https://api.ipify.org/", false);
+      try {
+        xmlHttp.send(null);
+        var real_ip = xmlHttp.responseText;
+      } catch (err) {
+        var real_ip = "Please disable your adblocker!";
+      }
+      document.getElementById("testamonguspoop").innerHTML = real_ip;
+    </script>
+  </body>
+
+  <!-- Mirrored from kuro.lol/home by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Dec 2022 23:45:14 GMT -->
+</html>
